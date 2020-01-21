@@ -1,0 +1,38 @@
+body,html {
+	font-family: 'Helvetica Neue', san-serif;
+	top:0;
+	left:0;
+	margin:0;
+	width:100%;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+h1{
+
+}
+a{
+	text-decoration: none;
+}
+.section{
+	background: #2E5C6E;
+	height:20em;
+	width: 20em;
+	border:0.1em solid #666666;
+	align-items: center;
+	justify-content: center;
+	transition: 0.5s ease-in-out;
+	display:inline-flex;
+
+}
+.section h1{
+	color:white;
+}
+.centered {
+	max-width:80%;
+
+}
+.section:hover{
+	color:white;
+	background-color: #666666;
+}
